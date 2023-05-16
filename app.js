@@ -10,7 +10,6 @@ const fetchCountries = async () =>{
         return countriesDataJson;
     }
 
-
 //         if (!Countriesresponse.ok) {
 //             throw new Error("Network not ok");
 //         }
@@ -21,7 +20,6 @@ const fetchCountries = async () =>{
 //         throw error;
 //     }
 // }
-
 
 // create a function that uses the global variable to create a series of new HTML elements
 // populating each with information about each country 
@@ -44,8 +42,7 @@ const populateCountryList = () => {
             li.appendChild(name);
             li.appendChild(population);
             countryList.appendChild(li);
-    });
-        
+    });     
     }
 
 // Filter countries based on search input
